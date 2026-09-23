@@ -2,14 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description:
 nav: true
 nav_order: 6
-calendar: true
 ---
+Teaching Assistant – Causal Inference (PhD Program)
+[European University Institute](https://www.eui.eu/en/home), Spring 2023.
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
-
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+I worked with Elias Dinas to support a doctoral course on causal inference. My responsibilities included leading seminars, assisting students with empirical research design, and providing feedback on assignments involving experimental and observational methods.
