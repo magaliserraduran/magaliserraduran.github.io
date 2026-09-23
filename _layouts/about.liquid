@@ -2,18 +2,18 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header"
-    <h2 style="font-size: 3rem;">Welcome!</h2>
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  <header class="post-header">
+  <h2 style="font-size: 3.5rem; margin-left: -3rem;">Welcome!</h2>
+  <h1 class="post-title" style="font-size: 2rem;">
+    {% if site.title == 'blank' %}
+      <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+      {{ site.last_name }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </h1>
+  <p class="desc" style="font-size: 1.1rem;">{{ page.subtitle }}</p>
+</header>
 
   <article>
     {% if page.profile %}
