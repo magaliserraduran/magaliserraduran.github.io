@@ -26,4 +26,6 @@ profile:
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
 #   limit: 3 # leave blank to include all the blog posts
 ---
+
 I am a Postdoctoral Researcher at Sciences Po since October 2026. I hold a BA in Political Sciences and Public Administration and a Research Master in Political Science from [Universitat Pompeu Fabra](https://www.upf.edu) and Master in Political Analysis and Institutional Assessment from [Univeristat de Barcelona](https://web.ub.edu/en). I obtained my PhD at the [European University Institute](https://www.eui.eu/en/home). My dissertation examines how women were incorporated into democratic politics following enfranchisement and what political consequences this process generated over time. More broadly, the dissertation conceptualises women’s suffrage not simply as a legal reform extending voting rights, but as a broader process of democratic incorporation and political socialisation unfolding across different political regimes and stages of the life course. 
+{: style="text-align: justify; hyphens: auto;"}
