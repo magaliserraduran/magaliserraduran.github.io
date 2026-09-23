@@ -2,9 +2,9 @@
 layout: default
 ---
 <div class="post">
-  <!-- Profile photo (placed before the header so it starts at the same height as "Welcome!") -->
+  <!-- Profile photo -->
   {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 25%;">
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 25%; margin-top: 5rem;">
       {% if page.profile.image %}
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% if page.profile.image_circular %}
