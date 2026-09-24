@@ -4,7 +4,7 @@ layout: default
 <div class="post">
   <!-- Profile photo -->
   {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 25%; margin-top: 6rem;">
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="width: 25%; margin-top: 7rem;">
       {% if page.profile.image %}
         {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
         {% if page.profile.image_circular %}
@@ -25,7 +25,7 @@ layout: default
   {% endif %}
 
   <header class="post-header">
-    <h2 style="font-size: 3.5rem; margin-left: -8rem; margin-top: -2rem;">Welcome!</h2>
+    <h2 style="font-size: 3.5rem; margin-left: -8rem; margin-top: -2rem; margin-bottom: 2rem;">Welcome!</h2>
     <h1 class="post-title" style="font-size: 2rem;">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
